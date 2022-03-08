@@ -3,6 +3,11 @@
     border-radius: 10px;
 }
 
-.playerCard h4{
-    color: tomato;
+.playerCard .flag-img{
+    width: 15%;
+}
+
+.playerCard .player-img{
+    border-radius: 50%;
+    border: 2px solid #0d6efd;
 }

@@ -1,13 +1,14 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import './Header.css';
+import logo from '../../images/logo.png';
 
 const Header = () => {
     return (
         <div>
             <Navbar bg="light" expand="lg">
                 <Container>
-                    <Navbar.Brand href="#home">Dream League</Navbar.Brand>
+                    <Navbar.Brand className="text-success" href="#home"><img src={logo} alt="" /> Dream League</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
