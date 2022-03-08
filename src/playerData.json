@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "image": "https://www.sportsbase.io/images/people/139847.png",
+        "name": "Jadon Sancho",
+        "team": {
+            "name": "Man Utd",
+            "flag": "https://www.sportsbase.io/images/clubs/475.png"
+        },
+        "salary": 100
+    },
+    {
+        "id": 2,
+        "image": "https://www.sportsbase.io/images/people/38233.png",
+        "name": "André Silva",
+        "team": {
+            "name": "RB Leipzig",
+            "flag": "https://www.sportsbase.io/images/clubs/2225.png"
+        },
+        "salary": 200
+    },
+    {
+        "id": 3,
+        "image": "https://www.sportsbase.io/images/people/120173.png",
+        "name": "Erling Haaland",
+        "team": {
+            "name": "Dortmund",
+            "flag": "https://www.sportsbase.io/images/clubs/522.png"
+        },
+        "salary": 300
+    },
+    {
+        "id": 4,
+        "image": "https://www.sportsbase.io/images/people/110933.png",
+        "name": "Éder Militão",
+        "team": {
+            "name": "Real Madrid",
+            "flag": "https://www.sportsbase.io/images/clubs/720.png"
+        },
+        "salary": 400
+    },
+    {
+        "id": 5,
+        "image": "https://www.sportsbase.io/images/people/21038.png",
+        "name": "Ruslan Malinovskyi",
+        "team": {
+            "name": "Atalanta",
+            "flag": "https://www.sportsbase.io/images/clubs/796.png"
+        },
+        "salary": 500
+    },
+    {
+        "id": 6,
+        "image": "https://www.sportsbase.io/images/people/135670.png",
+        "name": "Edmond Tapsoba",
+        "team": {
+            "name": "Leverkusen",
+            "flag": "https://www.sportsbase.io/images/clubs/553.png"
+        },
+        "salary": 600
+    },
+    {
+        "id": 7,
+        "image": "https://www.sportsbase.io/images/people/63906.png",
+        "name": "Frenkie de Jong",
+        "team": {
+            "name": "Barcelona",
+            "flag": "https://www.sportsbase.io/images/clubs/721.png"
+        },
+        "salary": 700
+    },
+    {
+        "id": 8,
+        "image": "https://www.sportsbase.io/images/people/63028.png",
+        "name": "Trent Alexander-Arnold",
+        "team": {
+            "name": "Liverpool",
+            "flag": "https://www.sportsbase.io/images/clubs/462.png"
+        },
+        "salary": 800
+    },
+    {
+        "id": 9,
+        "image": "https://www.sportsbase.io/images/people/155821.png",
+        "name": "Illan Meslier",
+        "team": {
+            "name": "Leeds Utd",
+            "flag": "https://www.sportsbase.io/images/clubs/497.png"
+        },
+        "salary": 900
+    },
+    {
+        "id": 10,
+        "image": "https://www.sportsbase.io/images/people/194646.png",
+        "name": "Saša Kalajdžić",
+        "team": {
+            "name": "Stuttgart",
+            "flag": "https://www.sportsbase.io/images/clubs/523.png"
+        },
+        "salary": 1000
+    },
+    {
+        "id": 11,
+        "image": "https://www.sportsbase.io/images/people/38534.png",
+        "name": "Matheus Pereira",
+        "team": {
+            "name": "Al Hilal Saudi",
+            "flag": "https://www.sportsbase.io/images/clubs/1256.png"
+        },
+        "salary": 1100
+    },
+    {
+        "id": 12,
+        "image": "https://www.sportsbase.io/images/people/97027.png",
+        "name": "Rodri",
+        "team": {
+            "name": "Man City",
+            "flag": "https://www.sportsbase.io/images/clubs/464.png"
+        },
+        "salary": 1200
+    },
+    {
+        "id": 13,
+        "image": "https://www.sportsbase.io/images/people/94878.png",
+        "name": "Yves Bissouma",
+        "team": {
+            "name": "Brighton",
+            "flag": "https://www.sportsbase.io/images/clubs/510.png"
+        },
+        "salary": 1300
+    },
+    {
+        "id": 14,
+        "image": "https://www.sportsbase.io/images/people/140718.png",
+        "name": "Nathaniel Phillips",
+        "team": {
+            "name": "Bournemouth",
+            "flag": "https://www.sportsbase.io/images/clubs/2169.png"
+        },
+        "salary": 1400
+    },
+    {
+        "id": 15,
+        "image": "https://www.sportsbase.io/images/people/179933.png",
+        "name": "Maxence Lacroix",
+        "team": {
+            "name": "Wolfsburg",
+            "flag": "https://www.sportsbase.io/images/clubs/563.png"
+        },
+        "salary": 1500
+    }
+]

@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
+import { Container, Row } from 'react-bootstrap';
 import './App.css';
+import Header from './components/Header/Header';
+import Player from './components/Player/Player';
+import playerData from './playerData.json';
 
 function App() {
+
+  const [players, setPlayers] = useState([]);
+
+  useEffect(() => {
+    setPlayers(playerData);
+  }, [])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header></Header>
+
+      <Container>
+        <Row className="d-flex justify-content-center align-items-center">
+          {
+            players.map((player) => <Player key={player.id} player={player}></Player>)
+          }
+        </Row>
+      </Container>
     </div>
   );
 }
