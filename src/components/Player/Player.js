@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Button, Col, Row } from 'react-bootstrap';
 import './Player.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserPlus } from '@fortawesome/free-solid-svg-icons';
 
 const Player = ({player, handleAddPlayer}) => {
+
+    const [clicked, setClicked] = useState(false);
+
+    const handleClick = () => {
+        setClicked(true);
+        handleAddPlayer(player);
+    }
 
     const {name, image, team, salary} = player;
 
@@ -18,7 +25,7 @@ const Player = ({player, handleAddPlayer}) => {
                     <h4 className="text-primary">{name} <img className="flag-img" src={team.flag} alt="" /></h4>
                     <h6>Team: {team.name}</h6>
                     <p>Salary: <span>$</span>{salary}</p>
-                    <Button onClick={() => handleAddPlayer(player)} variant="outline-primary"><FontAwesomeIcon icon={faUserPlus} /> Add Player</Button>
+                    <Button disabled={clicked} onClick={() => handleClick()} variant="outline-primary"><FontAwesomeIcon icon={faUserPlus} /> Add Player</Button>
                 </Col>
             </Row>
         </Col>

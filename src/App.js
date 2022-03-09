@@ -16,13 +16,8 @@ function App() {
   }, [])
 
   const handleAddPlayer = (player) => {
-    if (team.indexOf(player) === -1) {
-      const newTeam = [...team, player];
-      setTeam(newTeam);
-    }
-    else {
-      alert('Player already added!');
-    }
+    const newTeam = [...team, player];
+    setTeam(newTeam);
   }
 
   return (
